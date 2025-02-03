@@ -5,17 +5,31 @@
             border-radius: 10px;
             text-align: center;">
 <h1><img alt="Links" src="images/logo-128x128.png"></h1>
+<a href="http://oneandonlyone.github.io/iz3">iz3 Home Page</a><br>
 <a href="http://n-riesco.github.io/ijavascript">IJavascript Home Page</a><br>
 <a href="http://github.com/n-riesco/ijavascript">IJavascript Repository</a><br>
 <a href="http://github.com/n-riesco/jp-babel">jp-babel Repository</a><br>
 <a href="http://github.com/n-riesco/jp-coffeescript">jp-coffeescript Repository</a><br>
 </nav>
 
+# Iz3
+
+
+iz3 is a z^3/Javascript kernel for the [Jupyter
+notebook](http://jupyter.org/). iz3 uses zblack (ZCubes multi-platform REPL Command Line) 
+to achieve Omni-Functional Computing on the server side. 
+z^3 provides powerful Array Based Computing, with full backward compatibility with Javascript.  
+Learn more at https://wiki.zcubes.com/Z3
+
+Derived from IJavascript, which is a Javascript kernel for the [Jupyter
+notebook](http://jupyter.org/). 
+
+z^3 related files are prefixed with iz3 (instead of ijs or IJavascript below). 
+The executable used by iz3 is zblack or zcubes (instead of nodejs for ijavascript).
 
 # IJavascript
 
-IJavascript is a Javascript kernel for the [Jupyter
-notebook](http://jupyter.org/). The Jupyter notebook combines the creation of
+The Jupyter notebook combines the creation of
 rich-text documents (including equations, graphs and videos) with the execution
 of code in a number of programming languages. The execution of code is carried
 out by means of a kernel that implements the [Jupyter messaging
