@@ -90,7 +90,9 @@
     }
   ],
   "dependencies": {
-    "jp-kernel": "1 || 2"
+    "jp-kernel": "1 || 2",
+    "iz3": "https://github.com/oneandonlyone/iz3"
+    }
   },
   "deprecated": false,
   "description": "iz3 is a z3+js kernel for the Jupyter notebook",
