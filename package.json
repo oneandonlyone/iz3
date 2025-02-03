@@ -1,16 +1,16 @@
 {
-  "_from": "ijavascript",
-  "_id": "ijavascript@5.2.1",
+  "_from": "iz3",
+  "_id": "iz3@5.2.1",
   "_inBundle": false,
   "_integrity": "sha512-kH7hudp+S+8++ngjUXbiyHOhp3qa4oDVUkmf6p7+7s15PIBDv5zx878pxNRdGcWhYGy5TT683EOqeKMQw8jrFA==",
-  "_location": "/ijavascript",
+  "_location": "/iz3",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "ijavascript",
-    "name": "ijavascript",
-    "escapedName": "ijavascript",
+    "raw": "iz3",
+    "name": "iz3",
+    "escapedName": "iz3",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,24 +19,24 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ijavascript/-/ijavascript-5.2.1.tgz",
+  "_resolved": "https://registry.npmjs.org/iz3/-/iz3-5.2.1.tgz",
   "_shasum": "1642ebc5b3b15d315e54a697623d2bf4480fdef8",
-  "_spec": "ijavascript",
-  "_where": "C:\\Users\\zcubes",
+  "_spec": "iz3",
+  "_where": "C:\\iz3",
   "author": {
-    "name": "Nicolas Riesco",
-    "email": "enquiries@nicolasriesco.net",
-    "url": "http://www.nicolasriesco.net/"
+    "name": "Joe Pally",
+    "email": "joe@zcubes.com",
+    "url": "http://www.zcubes.com/"
   },
   "bin": {
-    "ijs": "bin/ijavascript.js",
-    "ijsconsole": "bin/ijsconsole.js",
-    "ijsinstall": "bin/ijsinstall.js",
-    "ijskernel": "lib/kernel.js",
-    "ijsnotebook": "bin/ijsnotebook.js"
+    "iz3": "bin/iz3.js",
+    "iz3console": "bin/iz3console.js",
+    "iz3install": "bin/iz3install.js",
+    "iz3kernel": "lib/kernel.js",
+    "iz3notebook": "bin/iz3notebook.js"
   },
   "bugs": {
-    "url": "https://github.com/n-riesco/ijavascript/issues"
+    "url": "https://github.com/oneandonlyone/iz3/issues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -83,13 +83,17 @@
     {
       "name": "Thierry Parmentelat",
       "email": "thierry.parmentelat@inria.fr"
+    },
+	{
+      "name": "Joe Pally",
+      "email": "joe@zcubes.com"
     }
   ],
   "dependencies": {
     "jp-kernel": "1 || 2"
   },
   "deprecated": false,
-  "description": "IJavascript is a Javascript kernel for the Jupyter notebook",
+  "description": "iz3 is a z3+js kernel for the Jupyter notebook",
   "devDependencies": {
     "debug": "2",
     "eslint": "2",
@@ -99,26 +103,29 @@
     "uuid": "3"
   },
   "engineStrict": true,
-  "homepage": "https://n-riesco.github.io/ijavascript",
+  "homepage": "https://oneandonlyone.github.io/iz3",
   "keywords": [
+	"z3",
+	"iz3",
     "javascript",
     "kernel",
     "ipython",
-    "jupyter"
+    "jupyter",
+	"zblack"
   ],
   "license": "BSD-3-Clause",
-  "name": "ijavascript",
+  "name": "iz3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n-riesco/ijavascript.git"
+    "url": "git+https://github.com/oneandonlyone/iz3.git"
   },
   "scripts": {
     "doc": "python scripts/doc-build.py",
-    "doc:publish": "node scripts/doc-publish.js gh-pages https://github.com/n-riesco/ijavascript",
+    "doc:publish": "node scripts/doc-publish.js gh-pages https://github.com/oneandonlyone/iz3",
     "lint": "eslint bin lib test",
-    "test": "npm run lint && npm run test:ijskernel",
+    "test": "npm run lint && npm run test:iz3kernel",
     "test:docker": "make -C docker test",
-    "test:ijskernel": "mocha test/ijskernel.js"
+    "test:iz3kernel": "mocha test/iz3kernel.js"
   },
   "version": "5.2.1"
 }
