@@ -12,4 +12,4 @@ COPY --chown=node:node . .
 
 RUN rm -rf node_modules && npm install
 
-CMD npm run test && node bin/ijsinstall.js
+CMD npm run test && node bin/iz3install.js

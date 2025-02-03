@@ -21,4 +21,4 @@ COPY --chown=node:node . .
 
 RUN rm -rf node_modules && npm install --save jp-kernel@1 jmp@1 && npm install
 
-CMD npm run test:ijskernel && bin/ijsinstall.js
+CMD npm run test:ijskernel && bin/iz3install.js

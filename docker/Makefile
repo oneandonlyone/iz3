@@ -23,19 +23,19 @@ build: $(BUILDS)
 	echo Building all...
 
 $(BUILDS):
-	docker build -t $(@:build-%=ijs:%) -f "${DIR_DOCKERFILES}/$(@:build-%=Dockerfile.%)" "${DIR_CONTEXT}"
+	docker build -t $(@:build-%=iz3:%) -f "${DIR_DOCKERFILES}/$(@:build-%=Dockerfile.%)" "${DIR_CONTEXT}"
 
 rebuild: $(REBUILDS)
 	echo Rebuilding all...
 
 $(REBUILDS):
-	docker build --no-cache -t $(@:rebuild-%=ijs:%) -f "${DIR_DOCKERFILES}/$(@:rebuild-%=Dockerfile.%)" "${DIR_CONTEXT}"
+	docker build --no-cache -t $(@:rebuild-%=iz3:%) -f "${DIR_DOCKERFILES}/$(@:rebuild-%=Dockerfile.%)" "${DIR_CONTEXT}"
 
 test: $(TESTS)
 	echo Testing all...
 
 $(TESTS):
-	docker run --rm -it $(@:test-%=ijs:%)
+	docker run --rm -it $(@:test-%=iz3:%)
 
 $(SHELLS):
-	docker run --rm -it $(@:shell-%=ijs:%) /bin/bash
+	docker run --rm -it $(@:shell-%=iz3:%) /bin/bash

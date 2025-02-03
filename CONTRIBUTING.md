@@ -1,3 +1,8 @@
+# iz3
+
+Thank you for using iz3 with zblack to a powerful JS based experience in creating logic. 
+iz3 is derived from the awesome IJavascript. See below and contribute.
+
 # Contributing to IJavascript
 
 First of all, thank you for taking the time to contribute.
@@ -17,6 +22,8 @@ information in your report:
   ```sh
   ijs --version
   ```
+
+  For iz3 related issues, please contact (https://github.com/oneandonlyone/iz3/issues).
 
 ## Code contributions
 

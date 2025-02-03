@@ -1,3 +1,5 @@
+iz3 is derived from IJavascript. The associated files are prefixed with iz3.
+
 IJavascript is an `npm` package that provides:
 - a Javascript kernel for the [Jupyter](http://jupyter.org/) console and
   notebook, the [Hydrogen](https://atom.io/packages/hydrogen) Atom plugin, the
@@ -14,6 +16,7 @@ purpose of the main classes.
 
 # Main Files
 
+`bin/iz3.js`  
 `bin/ijavascript.js`  
     Script to install the IJavascript kernel and/or launch the Jupyter
     dashboard.
