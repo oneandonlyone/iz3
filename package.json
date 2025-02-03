@@ -1,0 +1,124 @@
+{
+  "_from": "ijavascript",
+  "_id": "ijavascript@5.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-kH7hudp+S+8++ngjUXbiyHOhp3qa4oDVUkmf6p7+7s15PIBDv5zx878pxNRdGcWhYGy5TT683EOqeKMQw8jrFA==",
+  "_location": "/ijavascript",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ijavascript",
+    "name": "ijavascript",
+    "escapedName": "ijavascript",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ijavascript/-/ijavascript-5.2.1.tgz",
+  "_shasum": "1642ebc5b3b15d315e54a697623d2bf4480fdef8",
+  "_spec": "ijavascript",
+  "_where": "C:\\Users\\zcubes",
+  "author": {
+    "name": "Nicolas Riesco",
+    "email": "enquiries@nicolasriesco.net",
+    "url": "http://www.nicolasriesco.net/"
+  },
+  "bin": {
+    "ijs": "bin/ijavascript.js",
+    "ijsconsole": "bin/ijsconsole.js",
+    "ijsinstall": "bin/ijsinstall.js",
+    "ijskernel": "lib/kernel.js",
+    "ijsnotebook": "bin/ijsnotebook.js"
+  },
+  "bugs": {
+    "url": "https://github.com/n-riesco/ijavascript/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Benjamin Abel",
+      "email": "bbig26@gmail.com"
+    },
+    {
+      "name": "Joe Flack",
+      "email": "joeflack4@gmail.com"
+    },
+    {
+      "name": "Kevin Kwok",
+      "email": "kkwok@mit.edu"
+    },
+    {
+      "name": "Lukas Geiger",
+      "email": "lukas.geiger94@gmail.com"
+    },
+    {
+      "name": "Mandar Vaze",
+      "email": "mandarvaze@gmail.com"
+    },
+    {
+      "name": "Matt Torok",
+      "email": "github@overblown.net"
+    },
+    {
+      "name": "Min RK",
+      "email": "benjaminrk@gmail.com"
+    },
+    {
+      "name": "Nicolas Riesco",
+      "email": "enquiries@nicolasriesco.net"
+    },
+    {
+      "name": "Will Whitney",
+      "email": "wfwhitney@gmail.com"
+    },
+    {
+      "name": "William Krinsman",
+      "email": "krinsman@berkeley.edu"
+    },
+    {
+      "name": "Thierry Parmentelat",
+      "email": "thierry.parmentelat@inria.fr"
+    }
+  ],
+  "dependencies": {
+    "jp-kernel": "1 || 2"
+  },
+  "deprecated": false,
+  "description": "IJavascript is a Javascript kernel for the Jupyter notebook",
+  "devDependencies": {
+    "debug": "2",
+    "eslint": "2",
+    "jmp": "1 || 2",
+    "jsdoc": "3",
+    "mocha": "3",
+    "uuid": "3"
+  },
+  "engineStrict": true,
+  "homepage": "https://n-riesco.github.io/ijavascript",
+  "keywords": [
+    "javascript",
+    "kernel",
+    "ipython",
+    "jupyter"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "ijavascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-riesco/ijavascript.git"
+  },
+  "scripts": {
+    "doc": "python scripts/doc-build.py",
+    "doc:publish": "node scripts/doc-publish.js gh-pages https://github.com/n-riesco/ijavascript",
+    "lint": "eslint bin lib test",
+    "test": "npm run lint && npm run test:ijskernel",
+    "test:docker": "make -C docker test",
+    "test:ijskernel": "mocha test/ijskernel.js"
+  },
+  "version": "5.2.1"
+}
