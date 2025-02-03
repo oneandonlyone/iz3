@@ -5,7 +5,7 @@
             border-radius: 10px;
             text-align: center;">
 <h1><img alt="Links" src="images/logo-128x128.png"></h1>
-<a href="http://oneandonlyone.github.io/iz3">iz3 Home Page</a><br>
+<a href="http://oneandonlyone.github.io/iz3.html">iz3 Home Page</a><br>
 <a href="http://n-riesco.github.io/ijavascript">IJavascript Home Page</a><br>
 <a href="http://github.com/n-riesco/ijavascript">IJavascript Repository</a><br>
 <a href="http://github.com/n-riesco/jp-babel">jp-babel Repository</a><br>
@@ -26,6 +26,12 @@ notebook](http://jupyter.org/).
 
 z^3 related files are prefixed with iz3 (instead of ijs or IJavascript below). 
 The executable used by iz3 is zblack or zcubes (instead of nodejs for ijavascript).
+
+## Installing zblack
+
+Please download zblack from (http://downloads.zcubes.com/zblack) for your platform. 
+
+Please install zblack on a folder to which the path is set, so it can be invoked simply by tyoing zblack on the command prompt.
 
 # IJavascript
 
